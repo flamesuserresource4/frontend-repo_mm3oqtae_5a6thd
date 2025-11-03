@@ -16,15 +16,15 @@ export default function Hero() {
 
   return (
     <section onMouseMove={onMouseMove} className="relative w-full min-h-[90vh] flex items-center justify-center overflow-hidden bg-black text-white">
-      {/* 3D Scene */}
+      {/* 3D Scene as full-width cover */}
       <div className="absolute inset-0">
         <Spline
-          scene="https://prod.spline.design/4cHQr84zOGAHOehh/scene.splinecode"
+          scene="https://prod.spline.design/fRn7FqMm62bDS630/scene.splinecode"
           style={{ width: '100%', height: '100%' }}
         />
       </div>
 
-      {/* Blue fire visual effects */}
+      {/* Blue fire visual effects (CSS animated) */}
       <BlueFlames />
 
       {/* Soft vignette and gradient overlays (non-blocking) */}
